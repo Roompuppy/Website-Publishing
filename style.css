@@ -1,0 +1,30 @@
+@import "reset.css";
+.application{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.homebody{
+    background-image: url('background.jpg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 70%;
+    background-attachment: fixed;
+}
+.canvas{
+    background-color: white;
+    border-radius: 15px;
+}
+.controls{
+    margin-top: 30px;
+}
+.controls .controls__colors{
+    display: flex;
+}
+.controls__colors .controls__color{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}
